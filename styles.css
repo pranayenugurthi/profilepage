@@ -171,6 +171,12 @@
     align-self: center;
 }
 @media (max-width: 500px){
+    .navbar{
+        height: 6vh;
+    }
+    .page-title{
+        font-size: 18px;
+    }
     .profile-img{
         width: 150px;
         height: 150px;
