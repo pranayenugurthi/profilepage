@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.profile-page{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+}
+.navbar{
+    height:8vh;
+    width:100%;
+    background-color:  #43496a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid #9b9999;
+}
+.page-title{
+    font-size:24px;
+    margin:0;
+}
+.profile-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 20px;
+    overflow: auto;
+}
+.profile-description{
+    width: 70%;
+    font-size: 16px;
+    padding: 20px 36px;
+    margin: 20px 0 20px 0;
+    border: 1px solid #9b9999;
+    box-shadow: 0px 0px 4px 1px #9b9999;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile-name{
+    font-size: 32px;
+    font-weight: bold;
+    color:  #43496a;;
+}
+.profile-skill{
+    font-size: 18px;
+    color: #3b3939;
+    margin-top: 10px;
+}
+.profile-bio{
+    font-size: 18px;
+    color: #555;
+    
+}
+.profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.learning-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.heading{
+    font-size: 22px;
+    font-weight: bold;
+    color: #43496a;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.skill-list{
+    width: 70%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.list-item{
+    background-color: #43496a;
+    color: white;
+    padding: 8px 16px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.score-display{
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid tan;
+    width: fit-content;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #229622;
+    color: #ffffff;
+}
+.highlight-cgpa{
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px BLACK;
+}
+.project-link{
+    color: #229622;
+    font-size: 16px;
+}
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    max-width: 500px;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.project-img{
+    width: 40%;
+    max-width: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 4px 2px #0000006e;
+}
+.label{
+    font-size: 14px;
+    color: #555;
+    width: fit-content;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #9b9999;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.contact-section{
+    align-items: center;
+    width: fit-content;
+}
+.contact-details{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #444343;
+    padding: 20px;
+    border-radius: 6px;
+}
+.submit-button{
+    background-color: #43496a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+}
+@media (max-width: 500px){
+    .profile-img{
+        width: 150px;
+        height: 150px;
+    }
+    .profile-name{
+        font-size: 24px;
+    }
+    .profile-skill{
+        font-size: 14px;
+        width: 80%;
+    }
+    .profile-description{
+        width: 90%;
+        padding: 15px 20px;
+        margin: 8px;
+    }
+    .profile-bio{
+        font-size: 16px;
+    }
+    .heading{
+        font-size: 18px;
+    }
+    .skill-list{
+        width: 90%;
+        margin: 0px;
+    }
+     .list-item{
+        font-size: 12px;
+        padding: 6px 12px;
+        margin: 3px;
+    }
+     .score-display{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+     .highlight-cgpa{
+        font-size: 16px;
+    }
+     .project-link{
+        font-size: 14px;
+    }
+     
+     .project-img{
+        margin: 10px 0;
+    }
+    .contact-details{
+        width: 100%;
+    }
+    .contact-info{
+        font-size: 14px;
+        
+    }
+}
